@@ -1,0 +1,53 @@
+.personaje {
+    height: 527px;
+    width: 540px;
+    background: url(sonic-corriendo.png);
+    margin: 0 auto;
+    animation: correr 0.9s steps(8) infinite;
+    position: absolute;
+    left: 25%;
+    bottom: 86px;
+}
+.rapido {
+    height: 506px;
+    width: 500px;
+    background: url("3F3F.gif");
+    position: absolute;
+    left: 0%;
+    bottom: 86px;
+    animation: rapido 2s infinite;
+}
+.fondo {
+    height: 819px;
+    width: 1840px;
+    background: url("calle.jpg");
+    position: relative;
+    animation: fondo 2s linear infinite;
+}
+@keyframes correr{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -4218px;
+    } 
+}
+@keyframes fondo{
+    0%{
+        background-position: 0px;
+    }
+    100%{
+        background-position: -1840px;
+    } 
+}
+@keyframes rapido{
+    0%{
+        left:0px;
+    }
+    50%{
+        left:50%;
+    }
+    100%{
+        left: 100%;
+    } 
+}
