@@ -20,7 +20,7 @@
 .fondo {
     overflow: hidden;
     height: 819px;
-    width: 1840px;
+    width: 5840px;
     background: url("calle.jpg");
     position: relative;
     animation: fondo 2s linear infinite;
